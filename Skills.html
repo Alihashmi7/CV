@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="Skills.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Slider.css">
+        <title>Ali Hashmi CV</title>
+    </head>
+    
+    <body>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <img src="logo.png" alt="" />
+                    <a href="#">CV</a>
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="Index.html" class="" style="--navAni:1">Home</a></li>
+                    <li><a href="Education.html" class="" style="--navAni:2">Education</a></li>
+                    <li> <a href="Skills.html" class="active" style="--navAni:3">Skills</a></li>
+                    <li><a href="progresspage.html" style="--navAni:4">Portfolio</a></li>
+                    <li><a href="progresspage.html" style="--navAni:5">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+    
+<body>
+    <div class="middle-container">
+        <div class="profile">       
+            <img class="Best" src="Skillstop.jpeg" alt="My Picture">
+          <p> Assalam-o-Alaikum!/ hi! </p>
+          <p class="intro"> Proficient in a diverse range of Computer skills, acquired through both academic training and practical experience</p>
+          <p> Overview : Trainer| SEO | Freelancing | Graphic Designer | MS Office  | & A Web Designer </p>
+        </div>
+    
+        <h2> My Skills </h2>
+        <div class="skills">
+          <div class="skill-row">
+            <h3> Design & Development </h3>
+            <p> I started learning computer when I was in school Because I wanted to be a computer teacher.
+                Over time, I have gained a wealth of experience Certified SEO ,Freelancing by Digiskills moreover learned Graphic , Logo, Mobile Designing (React-Native+Firebase) & Web Applications. </p>
+          </div>
+    
+          <div class="skill-row">
+            <h2> My Extra Skills </h2>
+            <p>
+              <p> SEO               : <a href="https://digiskills.pk/verify/">Certificate ID: 8Z88DC7MK</a>
+              <p> Freelancing               : <a href="https://digiskills.pk/verify/">Certificate ID: XG7C826MK</a>
+              <p> Operating System  : Win XP / 7/ 8.1 / 10 & Linux
+              <p> Office Tools      : Office (Excel, Word, Power Point, Access)
+              <p> Graphic Tools     : Adobe PS & Pixel lab
+              <p> IDE`S             : Android Studio
+              <p> Networking        : Cisco Packet Tracer
+              <h2> Technical Skills : </h2>
+              <p> HTML 5, CSS 3, Java-Script,Bootstrap</p>
+              <p> Basic : C, C++,Python,React-Native </p>
+              <p> Data Base Management : Basic Sql </p>
+              <p>  </p>
+              <h2> Languages : </h2>
+              <p> Urdu, English,Punjabi</p>
+          </div>
+        </div>
+      </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="Best">1 / 5</div>
+          <img  src="S1.png" width="50%" >
+          <div class="text">GTCCI-Entreprenure</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="Best">2 / 6</div>
+          <img src="S2.png" width="50%">
+          <div class="text">AT University </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="Best">3 / 6</div>
+          <img src="S3.png" width="50%" >
+          <div class="text">A Poet</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="Best">4 / 6</div>
+            <img src="S4.png" width="50%" >
+            <div class="text">A Guitarist</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="Best">5 / 6</div>
+            <img src="S5.png" width="50%" >
+            <div class="text">At UOG Winning</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="Best">6 / 6</div>
+            <img src="S6.jpeg" width="50%" >
+            <div class="text">SEE-Pakistan 2023 Semi-Finals</div>
+          </div>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+            
+</body>
+</html>

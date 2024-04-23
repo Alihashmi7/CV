@@ -1,0 +1,67 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+background-color: #1F252E;
+height: 100vh;
+color: #ffffff;
+}
+
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.Best{
+  border-radius: 1000px;}
+
+a {
+  color: #11999E;
+
+}
+  
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;}
+
+.middle-container{
+  margin: 100px 0;}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+
+
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;}
+
+
+.Best {
+  width: 30%;
+  border-radius: 10%;}
+
