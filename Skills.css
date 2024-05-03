@@ -4,9 +4,9 @@ body{
   text-align: center;
   font-size: 20px;
   font-family: 'Outfit', sans-serif;
-background-color: #1F252E;
-height: 100vh;
-color: #ffffff;
+  background-color: #1F252E;
+  height: 100vh;
+  color: #ffffff;
 }
 
 
@@ -53,6 +53,11 @@ a {
 }
 
 
+	.intro {
+		font-size: 20px;
+		font-weight: normal;
+	}
+
 
 .skills {
   width: 50%;
@@ -65,3 +70,62 @@ a {
   width: 30%;
   border-radius: 10%;}
 
+
+@media(max-width: 991px){
+	.Best {
+     width: 40%;
+	 margin-bottom: 12px;
+	}
+	.intro {
+		width: 60%;
+	}
+	.skills {
+    width: 60%;
+    margin: 40px auto 100px auto;	
+	}
+	.my-plr{
+		padding: 0 8px;
+	}
+}
+  @media(max-width: 767px){
+	.Best {
+		width: 55%;
+	}
+    .skills {
+        width: 80%;
+	}
+	.intro {
+        width: 80%;
+    }
+  }
+  @media(max-width: 576px){
+	  .Best {
+        width: 65%;
+    }
+	.University {
+		width: 29%;
+	}
+	.middle-container {
+		margin: 70px 0;
+	}
+	.intro, .lang-desc, .extra-skill-desc, .my-design-desc{
+		font-size: 18px;
+	}
+	.extra-skill-desc{
+			font-weight: 500;
+	}
+	.extra-skill-desc a{
+		font-weight: 400 !important;
+		font-size: 16px;
+	}
+    .my-skill{
+		font-size: 24px;
+		margin-top: 18px;
+	}
+	.my-design, .my-extra-skill, .my-lang, .tech-skill{
+		font-size: 22px;
+	}
+	.mySlides img{
+		width: 80% !important;
+	}
+  }
