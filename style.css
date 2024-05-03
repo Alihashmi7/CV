@@ -333,7 +333,7 @@ to {
     padding: 0 4.4rem;
 }
 .main h3 {
-    color: #000;
+    color: #fff;
     margin-top: 1rem;
 }
 }
@@ -401,4 +401,9 @@ ul {
 .images {
     width: 200px;
 }
+}
+@media(max-width: 360px){
+	.main h1 {
+    font-size: 3.8rem;
+	}
 }
